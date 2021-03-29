@@ -14,7 +14,7 @@ const Header = ({
     return (
         <View style={styles.container}>
             <Text style={styles.title}>
-                할 일 목록
+                To Do List!
             </Text>
             <TouchableOpacity
                 activeOpacity={0.8}
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         marginRight: 16,
     },
     title: {
-        color: '#212121',
+        color: '#6a1b9a',
         fontSize: 32,
         fontWeight: '600',
     },
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         width: 28,
         height: 28,
         borderRadius: 14,
-        backgroundColor: '#212121',
+        backgroundColor: '#6a1b9a',
         justifyContent: 'center',
         alignItems: 'center',
         paddingTop: Platform.select({

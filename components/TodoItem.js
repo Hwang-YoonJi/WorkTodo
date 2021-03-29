@@ -26,7 +26,7 @@ const TodoItem = ({
                         onPress={toggle}
                         style={done ? styles.done : styles.check}
                     >
-                    <FontAwesome name="check" color={done ? '#FFFFFF' : '#E0E0E0'} size={14} />
+                    <FontAwesome name="check" color={done ? '#FFFFFF' : '#6a1b9a'} size={14} />
                     </TouchableOpacity>
                     <Text style={styles.title}>
                         {title}
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         height: 60,
         borderBottomWidth: 1,
-        borderBottomColor: '#E5E5E5',
+        borderBottomColor: '#6a1b9a',
     },
     title: {
         fontSize: 16,
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     },
     check: {
         borderWidth: 1,
-        borderColor: '#E5E5E5',
+        borderColor: '#6a1b9a',
         width: 28,
         height: 28,
         justifyContent: 'center',
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginRight : 8,
         borderRadius: 14,
-        backgroundColor: '#6830CF',
+        backgroundColor: '#6a1b9a',
     }
 })
 
